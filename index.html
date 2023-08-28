@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather-App</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="images/faviconimg.png" type="image/x-icon">
+    </head>
+    <body>
+        <div class="container">
+            <div class="weather_header">
+                <form class="weather_search">
+                    <input type="text" class="weather_searchform" placeholder="Search for a city" >
+                    <i class='fa fa-search'></i>
+                </form>
+                <div class="weather_units">
+                    <span class="weather_unit_celsius" onclick="changeBackgroundColor(this)"> &#176C</span>
+                    <span class="weather_unit_farenheit" onclick="changeBackgroundColor(this)" >&#176F </span>
+                </div>
+            </div>
+            <div class="weather_body">
+                <h1 class="weather_city"></h1>
+                <div class="weather_datetime">
+                    
+                </div>
+                <div class="weather_forecast"></div>
+                <div class="weather_icon">
+                    <img src="http://openweathermap.org/img/wn/10d@4x.png" alt="weather_icon">
+                </div>
+                <p class="weather_temperature"></p>
+                <div class="weather_minmax">
+                    <p>Min:12&#176</p>
+                    <p>Max:19&#176</p>
+                </div>
+            </div>
+            <div class="weather_info">
+                <div class="weather_card">
+                    <i class="fa-solid fa-temperature-full"></i>
+                    <div>
+                        <p>Real Feel</p>
+                        <p class="real_feel">18&#176</p>
+                    </div>
+                </div>
+                <div class="weather_card">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div>
+                        <p>Humidity</p>
+                        <p class="humidity">18&#176</p>
+                    </div>
+                </div>
+                <div class="weather_card">
+                    <i class="fa-solid fa-wind"></i>
+                    <div>
+                        <p>Wind</p>
+                        <p class="wind">18&#176</p>
+                    </div>
+                </div>
+                <div class="weather_card">
+                    <i class="fa-solid fa-gauge-high"></i>
+                    <div>
+                        <p>Pressure</p>
+                        <p class="pressure">18&#176</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://kit.fontawesome.com/25c1b88d85.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
