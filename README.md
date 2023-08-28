@@ -26,7 +26,7 @@ The Weather App is a web application that allows users to search for the weather
 
 ## 🚀 Demo
 
-You can view a live demo of the Weather App [here](#).
+You can view a live demo of the Weather App [Here](https://degala-prasanna.github.io/Weather-App/).
 
 ## 🏁 Getting Started
 
@@ -39,7 +39,7 @@ You can view a live demo of the Weather App [here](#).
 2. Navigate to the project directory:
 
    ```sh
-   cd weather-app
+   cd Weather-App
    ```
 
 3. Open the `index.html` file in your preferred web browser.
